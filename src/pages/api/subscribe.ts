@@ -46,7 +46,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       line_items: [{ price: "price_1LFlcqC1E50r6gmsWmNMVk10", quantity: 1 }],
       mode: "subscription",
       allow_promotion_codes: true,
-      success_url: "http://localhost:3000/post",
+      success_url: "http://localhost:3000/posts",
       cancel_url: "http://localhost:3000",
     });
 
